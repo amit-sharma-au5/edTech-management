@@ -1,0 +1,26 @@
+.content{
+    height: 435px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    color:  #522c35;
+    display: flex;
+    justify-content:  flex-end;
+}
+
+.bg-mimosa{
+    background-color: rgba(239, 192, 80, 0.8);
+    color: #522c35;
+}
+
+
+
+.root{
+    background-image: url("../public/img/content_image7.jpg");
+    background-size : cover;
+    height: 100vh;
+     
+}
+
+.card{
+    width: 80%;
+}
