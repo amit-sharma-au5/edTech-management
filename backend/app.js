@@ -5,9 +5,6 @@ require("dotenv").config()
 const db = require('./config/Keys').MongoURI
 const mongoose  = require('mongoose');
 
-// const bcrypt = require('bcrypt')
-// const adminModel = require('./Model/adminSchema')
-
 const app = new express();
 app.use(cors())
 app.use(express.json());
